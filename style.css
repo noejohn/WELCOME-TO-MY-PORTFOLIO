@@ -610,3 +610,27 @@ body {
 .dark-mode p {
   color: white;
 }
+.resume-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.resume-container img {
+  width: 30px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+.resume-container a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff; /* Change to match your theme */
+  transition: color 0.3s ease;
+}
+
+.resume-container a:hover {
+  color: #0056b3; /* Darker shade on hover */
+}
